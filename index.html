@@ -9,6 +9,10 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500&family=Roboto+Mono&family=Roboto:wght@500;700&display=swap"
       rel="stylesheet"
     />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
     <title>Quick Staart</title>
   </head>
   <body>
@@ -26,30 +30,15 @@
             fixar o significado
           </p>
           <div class="botoes">
-            <button class="botao">Próxima pergunta</button>
-            <button class="botao">Revelar resposta</button>
+            <button onclick="buscarInformacao()" class="botao">Próxima pergunta</button>
+            <button onclick="revelarResposta()" class="botao">Revelar resposta</button>
           </div>
         </div>
       </div>
 
-      <div class="container centralizar">
+      <div id="cardContainer" class="container centralizar">
         <!-- Container da direita -->
-        <div class="card">
-          <!-- Card -->
-          <div class="card-cabecalho centralizar">
-            <!-- Card Pergunta -->
-            <h1 class="card-titulo">O que é HTML?</h1>
-          </div>
-
-          <div class="card-conteudo blur">
-            <!-- Card Resposta -->
-            <p>
-              A linguagem de marcação de Hipertexto (HTML) é uma linguagem de
-              computador que compõe a maior parte das páginas da internet e dos
-              aplicativos online
-            </p>
-          </div>
-        </div>
+        
       </div>
     </div>
 
